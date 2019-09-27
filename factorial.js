@@ -9,13 +9,3 @@ while(i>=1) {
     result = result*i
 }
  alert("Factorial : " + result);
-
- // var num = Number(prompt("Please enter a number:"));
-// var arr = [];
-// var i;
-// for(i = 0; i < num; i++) {
-//     arr[i] = Number(prompt("Enter Numbers: "));
-// }
-// for(i = 0; i < num; i++) {
-//     console.log(arr[i]);
-// }

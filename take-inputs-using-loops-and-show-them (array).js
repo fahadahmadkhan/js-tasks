@@ -1,8 +1,9 @@
-var num = 10;
+var num = 3;
 var arr = [];
 var i;
+var s=arr;
 debugger;
 for(i = 0; i < num; i++) {
-    arr[i] = Number(prompt("Enter Numbers: "));
+    arr[i] = Number(prompt("Enter Numbers : "));
 }
-alert(arr);
+console.log("Numbers : " + arr);
