@@ -10,12 +10,12 @@ while(i>=1) {
 }
  alert("Factorial : " + result);
 
-    //  var num = prompt("Enter a value");
-//  var b, sum = 0;
-//  while(num > 0)
-//  {
-//    b = num % 10;
-//    sum = sum * 10 + b;
-//    num = parseInt(num / 10);
-//  }
-//  alert(sum);
+ // var num = Number(prompt("Please enter a number:"));
+// var arr = [];
+// var i;
+// for(i = 0; i < num; i++) {
+//     arr[i] = Number(prompt("Enter Numbers: "));
+// }
+// for(i = 0; i < num; i++) {
+//     console.log(arr[i]);
+// }
