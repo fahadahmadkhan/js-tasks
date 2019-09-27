@@ -1,4 +1,4 @@
-var num = 3;
+var num = 10;
 var arr = [];
 var i;
 var sum =0;
