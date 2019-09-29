@@ -1,39 +1,42 @@
-var num = 3;
+var num = 4;
 var arr = [];
-var i;
-var sum = 0;
-var avg;
 
-    for (i = 0; i < num; i++) {
+    for (var i = 0; i < num; i++) {
     var n=i+1;
     arr[i] = Number(prompt("Number #" + n + ": "));
 }
 
-    var max = arr[0]
-    var min = arr[0]
-
-    for (i = 0; i < num; i++) {
+function maxNumber(max=arr[0]){
+    for (var i = 0; i < num; i++) {
         if(arr[i]>max){
             max=arr[i]
         }
     }
-
-    for (i = 0; i < num; i++) {
-    if(arr[i]<min){
-        min=arr[i]
-    }
+    return max;
 }
 
-    for (i = 0; i < num; i++) {
+function minNumber(min=arr[0]){
+    for (var i = 0; i < num; i++) {
+        if(arr[i]<min){
+            min=arr[i]
+        }
+    }
+    return min;
+}
+
+function addition(sum=0){
+    for(var i = 0; i < num; i++) {
        sum= sum + arr[i];
     }
+    return sum;
+}
 
-    avg = sum/num;
+    var avg = addition()/num;
 
     alert("Numbers : " + arr + '\n' 
-    + "Max Value : " + max + '\n' 
-    + "Min Value :" + min + '\n'
-    + "Sum Of Numbers: " + sum + '\n' 
+    + "Max Value : " + maxNumber() + '\n' 
+    + "Min Value :" + minNumber() + '\n'
+    + "Sum Of Numbers: " + addition() + '\n' 
     + "Average : " + avg);
 
 
