@@ -2,8 +2,7 @@ var num = 4;
 var arr = [];
 
     for (var i = 0; i < num; i++) {
-    var n=i+1;
-    arr[i] = Number(prompt("Number #" + n + ": "));
+    arr[i] = Number(prompt("Number #" + (i+1)+ ": "));
 }
 
 function maxNumber(max=arr[0]){
