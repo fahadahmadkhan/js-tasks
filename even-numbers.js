@@ -1,8 +1,8 @@
-var num = Number(prompt("Please enter a number:"));
+var num = Number(prompt("Please Enter a Number : "));
 var i=0;
-var result='';
+var result='Even Numbers are :' + '\n';
 while(i<num) {
-    result = i*2;
+    result = result + (i*2) + ', ';
     i++;
-    console.log(result)
 }
+alert(result)

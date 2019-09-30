@@ -1,4 +1,4 @@
-num = Number(prompt("Please enter a number:"));
+num = Number(prompt("Please Enter a Number : "));
   if ( num % 2 == 0) {
       alert(num + ' is a Even number')
     }

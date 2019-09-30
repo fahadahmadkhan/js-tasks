@@ -1,9 +1,17 @@
-var num = Number(prompt("Please enter a number:"));
+var num = Number(prompt("Please Enter a Number : "));
 var i=1;
-var result=i;
-debugger;
+var result='Odd Numbers are :' + '\n';
 while(i<=num) {
-    console.log(result);
     result = result + 2;
     i++;
 }
+alert(result);
+
+// var num = Number(prompt("Please Enter a Number : "));
+// var i=1;
+// var result='Odd Numbers are :' + '\n';
+// while(i<=num) {
+//     result = result + 2;
+//     i++;
+// }
+// alert(result);

@@ -1,4 +1,4 @@
-var num = Number(prompt("Please enter a number:"));
+var num = Number(prompt("Please Enter a Number : "));
 var i=num, result=num;
 debugger;
 while(i>=1) {
@@ -8,4 +8,4 @@ while(i>=1) {
     i--;
     result = result*i
 }
- alert("Factorial : " + result);
+ alert("Factorial of " + num + " is : " + result);

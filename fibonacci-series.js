@@ -1,7 +1,7 @@
 var f1 = 1;
 var f2 = 1;
 var f3;
-var num = Number(prompt("Please enter a number:"));
+var num = Number(prompt("Please Enter a Number : "));
 var result = '';
 var i = 1; 
 debugger;
@@ -24,4 +24,4 @@ while (i<=num) {
     }
     i++;
 }
-console.log("Your Fibonacci Series is : " + result)
+alert("Your Fibonacci Series upto " + num + "digits is : " + '\n' + result)

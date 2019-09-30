@@ -1,4 +1,4 @@
-var num = Number(prompt("Please enter a number:"));
+var num = Number(prompt("Please Enter a Number : "));
 var count = 0;
 while(num >= 1) {
     num = num/10;
