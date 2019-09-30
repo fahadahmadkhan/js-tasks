@@ -1,4 +1,4 @@
-var n = Number(prompt("Please enter a number:"));
+var n = Number(prompt("Please Enter a Number : "));
 var i=2;
 	while (i <= n ) {	
 		if (n%i == 0){
