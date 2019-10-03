@@ -81,47 +81,86 @@
 
     -----------------------------------------------------------------------------------------------------------------------
 
-        function mulitply(matrix1, matrix2) {
-            var result = new Array(matrix1.lenght)
-            for (var i = o; i < result.length; i++) {
-                result[i] = new Array(matrix2[i].lenght);
-                for (var j = 0; j < matrix1.length; j++) {
-                    result[i][j] = 0;
-                    for (var k = 0; k < matrix2; k++) {
-                        result[i][j] = result + matrix1[i][k] * matrix2[k][j];
-                    }
-                }
-                return result;
-            }
-        }
-var matrix1 = [[8, 3], [2, 4], [3, 6]],
-    matrix2 = [[1, 2, 3], [4, 6, 8]];
-document.write('matrix a:<br />');
-display(matrix1);
-document.write('matrix b:<br />');
-display(matrix2);
-document.write('a * b =<br />');
-display(multiply(matrix1, matrix2));
+ //Matrix Mutipliucation
 
-var matrix1 = [[8, 3], [2, 4], [3, 6]],
-    matrix2 = [[1, 2, 3], [4, 6, 8]];
 
-function multiply(matrix1, matrix2) {
-    var result = new Array(matrix1.lenght)
-    for (var i = o; i < result.length; i++) {
-        result[i] = new Array(matrix2[i].lenght);
-        for (var j = 0; j < matrix1.length; j++) {
-            result[i][j] = 0;
-            for (var k = 0; k < matrix2; k++) {
-                result[i][j] = result + matrix1[i][k] * matrix2[k][j];
-            }
-        }
-    }
-    return result;
-}
-alert(result)
 
-var studentName = [Fahad, Hamza, Rehan, Bilal, Mehmood]
+//         function mulitply(matrix1, matrix2) {
+//             var result = new Array(matrix1.lenght)
+//             for (var i = o; i < result.length; i++) {
+//                 result[i] = new Array(matrix2[i].lenght);
+//                 for (var j = 0; j < matrix1.length; j++) {
+//                     result[i][j] = 0;
+//                     for (var k = 0; k < matrix2; k++) {
+//                         result[i][j] = result + matrix1[i][k] * matrix2[k][j];
+//                     }
+//                 }
+//                 return result;
+//             }
+//         }
+// var matrix1 = [[8, 3], [2, 4], [3, 6]],
+//     matrix2 = [[1, 2, 3], [4, 6, 8]];
+// document.write('matrix a:<br />');
+// display(matrix1);
+// document.write('matrix b:<br />');
+// display(matrix2);
+// document.write('a * b =<br />');
+// display(multiply(matrix1, matrix2));
+
+
+------------------------------
+// var matrix1 = [[8, 3], [2, 4], [3, 6]],
+//     matrix2 = [[1, 2, 3], [4, 6, 8]];
+
+// function multiply(matrix1, matrix2) {
+//     var result = new Array(matrix1.lenght)
+//     for (var i = o; i < result.length; i++) {
+//         result[i] = new Array(matrix2[i].lenght);
+//         for (var j = 0; j < matrix1.length; j++) {
+//             result[i][j] = 0;
+//             for (var k = 0; k < matrix2; k++) {
+//                 result[i][j] = result + matrix1[i][k] * matrix2[k][j];
+//             }
+//         }
+//     }
+//     return result;
+// }
+// alert(result)
+
+
+----------
+// function multiplyMatrices(m1, m2) {
+//     var result = [];
+//     for (var i = 0; i < m1.length; i++) {
+//         result[i] = [];
+//         for (var j = 0; j < m2[0].length; j++) {
+//             var sum = 0;
+//             for (var k = 0; k < m1[0].length; k++) {
+//                 sum += m1[i][k] * m2[k][j];
+//             }
+//             result[i][j] = sum;
+//         }
+//     }
+//     return result;
+// }
+
+// var m1 = [[1,2],[3,4]]
+// var m2 = [[5,6],[7,8]]
+
+// var mResult = multiplyMatrices(m1, m2)
+
+// /*In Google Chrome and Firefox you can do:*/
+
+// console.log(mResult)
+
+//Matrix Mutipliucation
+
+
+---------------------------------------------------------------------------------------------------------------------
+
+//cgpa&roll#
+
+// var studentName = [Fahad, Hamza, Rehan, Bilal, Mehmood]
 // var rollNumber = [1, 2, 3, 4, 5];
 // var cgpa = [2.9, 3.1, 3.6, 1.7, 2.2];
 // var studentDetail = []
@@ -140,14 +179,14 @@ var studentName = [Fahad, Hamza, Rehan, Bilal, Mehmood]
 //     }
 // }
 
+---------------------
 
-
-for(var i = 0; i < studentDetail.length; i++) {
-    document.write("<h2>"+studentDetail[i][0]+"</h2>");
-    for(var j = 0; j < studentDetail[i].length; j++) {
-        document.write(studentDetail[i][j]+"<br>");
-    }
-}
+// for(var i = 0; i < studentDetail.length; i++) {
+//     document.write("<h2>"+studentDetail[i][0]+"</h2>");
+//     for(var j = 0; j < studentDetail[i].length; j++) {
+//         document.write(studentDetail[i][j]+"<br>");
+//     }
+// }
 // var studentName = ["Fahad", "Hamza", "Rehan"];
 // var rollNumber = ["Roll Number # 123", "Roll Number # 456", "Roll Number # 789"];
 // var cgpa = [3.2, 2.9, 3.6]
@@ -165,6 +204,8 @@ for(var i = 0; i < studentDetail.length; i++) {
 //         document.write(studentDetail[i][j] + '<br>')
 //     }
 // }
+
+------------------
 // if (cgpa == 4) {
 //     grade = "A+";
 // }
@@ -192,3 +233,8 @@ for(var i = 0; i < studentDetail.length; i++) {
 // if (cgpa < 1.0) {
 //     grade = "Fail";
 // }
+
+
+//cgpa&roll#
+
+----------------------------------------------------------------------------------------------------------------------
