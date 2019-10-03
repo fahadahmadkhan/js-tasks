@@ -10,7 +10,7 @@ for (i = 0; i < 3; i++) {
 };
 for (var i = 0; i < studentName.length; i++) {
     studentDetails = studentDetails + '\n' +
-        "~ Student # " + (i + 1) + '\n\n' +
+        "~ Student # " + (i + 1) + ' ~' + '\n\n' +
         "Name : " + studentName[i] + '\n' +
         "Roll Number # : " + rollNumber[i] + '\n' +
         "CGPA : " + cgpa[i] + '\n';
