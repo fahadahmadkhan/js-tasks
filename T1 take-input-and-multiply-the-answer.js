@@ -6,4 +6,4 @@ for (var j = 0; j < i; j += 1) {
     ans = ans * num;
 }
 
-alert(ans)
+alert("Answer : " + ans)
