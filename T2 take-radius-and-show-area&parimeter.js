@@ -1,11 +1,9 @@
-var radiusInput = Number(prompt("Please Enter Radius : "));
-var radius = radiusInput;
+var radius = Number(prompt("Please Enter Radius : "));
 
-if (radiusInput > 0) {
+if (radius > 0) {
 
-    var parimeter = 2 * Math.PI * radiusInput;
-    radiusInput = radiusInput ** 2;
-    var area = Math.PI * radiusInput;
+    var area = Math.PI * radius * radius;
+    var parimeter = 2 * Math.PI * radius;
 
     alert(
 
